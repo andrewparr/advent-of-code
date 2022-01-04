@@ -15,7 +15,7 @@ int main(int argc, char** argv) {
     for (size_t i = 1; i < input.size(); ++i) {
         if (input[i] > input[i-1])
             part_1++;
-        if (i > 3 && input[i] > input[i-3])
+        if (i > 2 && input[i] > input[i-3])
             part_2++;
     }
 
