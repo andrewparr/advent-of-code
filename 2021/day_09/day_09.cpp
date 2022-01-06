@@ -57,6 +57,7 @@ int main(int argc, char** argv) {
     }
     std::cout << risk_level << std::endl;
 
+    // part 2
     std::vector<int> basin_sizes;
     for (auto& a : mins) {
         int size = 0;
