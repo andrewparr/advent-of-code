@@ -58,10 +58,10 @@ int BingoCard::sum() {
 std::istream& operator>>(std::istream& in, BingoCard& t) {
     // A grid consists of 25 integers
     int v;
-    std::cin >> v;
+    in >> v;
     t.grid_.push_back(v);
-    while (!std::cin.eof() && t.grid_.size() < 25) {
-        std::cin >> v;
+    while (!in.eof() && t.grid_.size() < 25) {
+        in >> v;
         t.grid_.push_back(v);
     }
     return in;
