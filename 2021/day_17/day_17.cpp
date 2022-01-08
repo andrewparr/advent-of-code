@@ -44,7 +44,7 @@ int main(int argc, char** argv) {
     std::string input;
     getline(std::cin, input);
 
-    const std::regex re("target area: x=(-?\\d*)..(-?\\d*), y=(-?\\d*)..(-?\\d*)");
+    const std::regex re(R"(target area: x=(-?\d*)..(-?\d*), y=(-?\d*)..(-?\d*))");
     std::smatch match;
     if (regex_search(input, match, re)) {
         int x1 = stoi(match.str(1));
