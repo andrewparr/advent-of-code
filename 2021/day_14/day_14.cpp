@@ -1,17 +1,7 @@
 #include <iostream>
 #include <string>
-// #include <vector>
-// #include <array>
 #include <map>
-// #include <set>
-// #include <queue>
 #include <list>
-// #include <algorithm>
-// #include <utility>
-// #include <assert.h>
-// #include <cstring>
-// #include <cctype>
-
 
 int main(int argc, char** argv) {
 
