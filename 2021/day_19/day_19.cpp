@@ -210,8 +210,6 @@ int main(int argc, char** argv) {
         scanners.push_back(scanner);
     }
 
-    std::cout << "here\n";
-
     std::set<int> to_align;
     for (int i = 1; i < scanners.size(); ++i) {
         to_align.insert(i);
